@@ -23,7 +23,7 @@ Visual Studio 2019
   - Quantity
   - Photo URL
   - Description
-- Edit a trip by entering name and boxes auto fill
+- Edit a trip
 - Search for a trip
 - Change quantity of a trip
 - Delete a trip
