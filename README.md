@@ -1,6 +1,6 @@
-# Vacation Trip Store Applicaiton
+# Vacation Trip Store Application
 
-This milestone for C# I was aimed at creating a GUI applicaiton that acted as a store inventory for different vacation trips. Due to Grand Canyon University policy, code snippets are only allowed and will be the only code provided. 
+This milestone for C# I was aimed at creating a GUI application that acted as a store inventory for different vacation trips. Due to Grand Canyon University policy, code snippets are only allowed and will be the only code provided. 
 
 #### Languages
 C#
@@ -25,7 +25,7 @@ Visual Studio 2019
   - Description
 - Edit a trip
 - Search for a trip
-- Change quantity of a trip
+- Change the quantity of a trip
 - Delete a trip
 - Sort trips
 - Upload a file
@@ -47,9 +47,9 @@ float price = float.Parse(txt_price.Text);
 ```
 
 ### Constructors
-Constructor was called for a new trip named t. Appropiate arguements were passed for the parameters of this constructor.
+Constructor was called for a new trip named t. Appropriate arguments were passed for the parameters of this constructor.
 ```
-Trip t = new Trip(name, location, date, price, duration, description, quantity, url);
+Trip t = new Trip(name, location, date, price, duration, description, quantity, URL);
 ```
 
 ### Operators
@@ -59,7 +59,7 @@ string oneLine = t.name + "|" + t.location + "|" + t.date + "|" + t.price + "|" 
 ```
   
 ### If ... Else
-This was nested in a foreach loop. The foreach itterated through an array (variable name choosen was t) and if the name was empty, a message box would print that there are no trips, else (if there were names) it would add it to the list box.
+This was nested in a foreach loop. The foreach iterated through an array (variable name chosen was t) and if the name was empty, a message box would print that there are no trips, else (if there were names) it would add it to the list box.
 ```
 //If there are no trips
 if (t.name.Equals(null))
